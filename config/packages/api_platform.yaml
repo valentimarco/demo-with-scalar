@@ -17,3 +17,9 @@ api_platform:
     keep_legacy_inflector: false
     use_symfony_listeners: true
     enable_swagger_ui: true
+    swagger:
+        versions: [ 3 ]
+        api_keys:
+            JWT:
+                name: X-AUTH-TOKEN
+                type: header

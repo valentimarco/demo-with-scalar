@@ -1,0 +1,5 @@
+### GET request to example server
+GET http://localhost:8081/api/docs
+Accept: application/vnd.openapi+json
+
+###
